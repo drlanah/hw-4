@@ -3,9 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Hamilton Quiz</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
   </head>
-  <body>
-    <script src="./script.js"></script>
+  <body class="body">
+    <header class="header">
+      <div class="row">
+            <a id="highScores">&#9733 Top Scores</a>
+            <h2 id="countdown"></h2>
+            <div id="time"></div>
+          </div>
+    </header>
+    <main>
+      <div id="quiz">
+      <div>
+        <div>
+          <div>
+            <h1 id="hamilton">
+              Hamilton &#9733 Quiz
+            </h1>
+          </div>
+          <h2 id="main" class="row">
+            <p>Test your knowledge of the hit Broadway show, "Hamilton".</p>
+          </h2>
+          <div class="row">
+            <button type="button" id="start">
+              Start Quiz
+            </button>
+            <div id="correct"></div>
+          </div>
+          <br>
+          <div id="ans"></div>
+          <div class="row">
+            <input
+              type="text"
+              id="initials"
+              placeholder="Write initials here"
+            />
+            <br>
+            <div id="finalScore">
+                <span>Final Score = </span>
+            </div>
+            <button type="button" id="add">
+              Add to Top Scores
+            </button>
+          </div>
+          <div id="right"></div>
+          <div id="results"></div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>

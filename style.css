@@ -1,0 +1,111 @@
+.body {
+  background-color: seashell;
+}
+
+.header {
+  background-color: rgb(179, 144, 32);
+  height: 50px;
+}
+
+#highScores {
+  color: black;
+  font-family: "Fondamento", cursive;
+  font-size: 20px;
+  margin: 25px auto 25px 25px;
+}
+
+#hamilton {
+  font-family: "Fondamento", cursive;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px rgb(179, 144, 32);
+}
+
+#start {
+  margin: 25px auto 10px 25px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: 5px solid rgb(179, 144, 32);
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Fondamento", cursive;
+  width: 150px;
+}
+
+#add {
+  margin: 10px auto 10px 25px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: 5px solid rgb(179, 144, 32);
+  background-color: black;
+  color: white;
+  font-family: "Fondamento", cursive;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 150px;
+}
+
+#finalScore {
+  margin: 25px auto 25px 25px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  border: 5px solid rgb(179, 144, 32);
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Fondamento", cursive;
+  width: 142px;
+}
+
+#main {
+  text-align: center;
+  font-family: "Fondamento", cursive;
+  font-size: 20px;
+}
+
+#initials {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 5px solid rgb(179, 144, 32);
+  width: 145px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+#quizAns {
+  display: block;
+  margin: 10px 100px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: 5px solid rgb(179, 144, 32);
+  background-color: black;
+  color: white;
+  font-family: "Fondamento", cursive;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 250px;
+}
+
+#countdown {
+  float: right;
+  font-family: "Fondamento", cursive;
+  font-size: 20px;
+}
+
+#correct {
+  float: left;
+}
